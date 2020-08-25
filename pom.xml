@@ -35,22 +35,21 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-<!-- #we don't need download tarball anymore, now we build from the source code
   <scm>
-      <connection>scm:git:git@github.com:gooddata/build-flow-test-aggregator.git</connection>
-      <developerConnection>scm:git:git@github.com:gooddata/build-flow-test-aggregator.git</developerConnection>
-      <url>https://github.com/gooddata/build-flow-test-aggregator</url>
+      <connection>scm:git:git@github.com:caohhung/build-flow-test-aggregator.git</connection>
+      <developerConnection>scm:git:git@github.com:caohhung/build-flow-test-aggregator.git</developerConnection>
+      <url>https://github.com/caohhung/build-flow-test-aggregator</url>
     <tag>HEAD</tag>
-  </scm> -->
+  </scm>
 
   <distributionManagement>
     <repository>
       <id>gooddata</id>
-      <url>https://nexus.intgdc.com/nexus/content/repositories/gooddata/</url>
+      <url>https://sonatype-nexus.intgdc.com/repository/demo/</url>
     </repository>
     <snapshotRepository>
       <id>gooddata-snapshots</id>
-      <url>https://nexus.intgdc.com/nexus/content/repositories/gooddata-snapshots/</url>
+      <url>https://sonatype-nexus.intgdc.com/repository/demo-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
